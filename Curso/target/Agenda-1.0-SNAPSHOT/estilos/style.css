@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    --cor: #66bbff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1{
+    color: var(--cor);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+img{
+    margin-bottom: 25px;
+}
+
+.botao1{
+    background-color: var(--cor);
+    padding: 5px 10px ;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.botao1:hover{
+    background-color:#4177a2;
+    color: rgb(189, 189, 189);
+    transition: all 0.3s;
+}
+
+.botao2{
+    background-color:red;
+    padding: 5px 10px ;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.botao2:hover{
+    background-color:rgb(162, 21, 21);
+    color: rgb(189, 189, 189);
+    transition: all 0.3s;
+}
+
+.caixa{
+    width: 320px;
+    border: 1px solid var(--cor);
+    border-radius: 5px;
+    padding: 5px;
+}
+div{
+    margin-bottom: 30px;
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+table th{
+    border: 1px solid rgb(99, 99, 99);
+    padding: 10px;
+    background-color: var(--cor);
+    color: white;
+}
+table td{
+    border: 1px solid rgb(99, 99, 99);
+    padding: 10px;
+}
+
+
